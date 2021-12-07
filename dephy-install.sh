@@ -6,3 +6,4 @@ sudo ufw --force enable && sudo ufw allow 8988 && sudo ufw allow 22
 sudo usermod -a -G dialout "$USER"
 python3 -m pip install --upgrade pip
 python3 -m pip install flexsea
+python3 -m pip install numpy --upgrade
